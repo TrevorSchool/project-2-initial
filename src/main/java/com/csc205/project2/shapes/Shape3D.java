@@ -59,7 +59,7 @@ package com.csc205.project2.shapes;
  * <p><b>Naming conventions:</b> Class names are PascalCase; fields, parameters, and methods are
  * lowerCamelCase; constants (if added later) are UPPER_SNAKE_CASE.</p>
  */
-public abstract class Shape3d implements ThreeDimensionalShape {
+public abstract class Shape3D implements ThreeDimensionalShape {
 
     /** Human-readable shape name, e.g., "Sphere", "Cube". */
     private String name;
@@ -74,7 +74,7 @@ public abstract class Shape3d implements ThreeDimensionalShape {
      * @param color the shape's color; must be non-null and not blank
      * @throws IllegalArgumentException if {@code name} or {@code color} is null/blank
      */
-    public Shape3d(final String name, final String color) {
+    public Shape3D(final String name, final String color) {
         this.name = requireNonBlank(name, "name");
         this.color = requireNonBlank(color, "color");
     }

@@ -40,3 +40,12 @@ the project I used chatGPT as a refresher for how to run test. I decided to test
 followed-up by right-clicking the java directory within test and selecting "Run 'All Tests" to make sure the whole 
 project passed in one test. There wasn't a single error, and I am confident the program will run after I add to the 
 driver class.
+
+
+
+
+
+4th Reflection: 
+I created the Driver class with ChatGPT and I am very pleased with the results. The only issue I had with the original 
+code was that it reference Shape3D as Shape3d (a mistake I fixed earlier), so I need to communicate that to my AI so 
+it knows for the future. This was a great learning experience. Next I plan on  

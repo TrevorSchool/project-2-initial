@@ -1,17 +1,38 @@
 # Reflections Log
 
-This document serves as a log of reflections on various topics, capturing insights, lessons learned, and personal growth. It is intended to help users track their thoughts and experiences over time.
+This document serves as a log of reflections on various topics, capturing insights, lessons learned, and personal 
+growth. It is intended to help users track their thoughts and experiences over time.
 
 Reflection Questions:
 AI Effectiveness: Where did AI tools excel? Where did they struggle?
+Throughout the entire project ChatGPT gave me only 2 issues, and one of them was my fault. One issue was due to me 
+referreing to Shape3D as Shape3d in the prompt which created errors in the code. Luckily I was able to refactor to the
+correct Class name which allowed my code to run. 
+
 
 Code Quality Comparison: How does AI-generated code compare to manual coding?
+It is very nice being able to create code for multiple classes with a single prompt. Multiple times throughout the reflection
+I've stated that taking time on the prompt helped me avoid errors and communicate exactly what I need. The code quality is much
+better and I can learn from analyzing the code it generates. It's much quicker than writing it myself.
+
 
 Learning Experience: What did you learn about inheritance AND AI-assisted development?
+AI assisted development is going to save me a lot of time and effort and act as a learning tool for the future. In this project
+I learned how interfaces and classes are used together to create a program which I wasn't exposed to in my first Java class.
+If you tell The Ai the classes you want to make and what it extends, it will understand the hierarchy and relationships between the classes 
+which makes further additions to the code easy too.
 
 Validation Process: How did you ensure the AI-generated code was correct?
+I generated multiple objects with various values to ensure the calculations were correct. I also cross-checked the formulas with
+the ones provided in the README.md file and the internet. I ran tests on the classes individually and then as the whole package with no
+issues arising. 
+
 
 Future Applications: How will you use AI tools in future programming projects?
+I Will use AI tools in the future to create groups of related classes to save me time ane effort. I can also analyze the code it generates
+and learn better coding habits and techniques.
+
+
 
 
 1st Reflection:
